@@ -15,12 +15,12 @@
  *
  * @return void
  */
-function musicalmuse_styles() {
+function musicalmuse_wp_enqueue_scripts() {
 	wp_enqueue_style(
-		'musicalmuse-style',
+		'musicalmuse-custom-theme',
 		get_stylesheet_uri(),
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
 }
-add_action( 'wp_enqueue_scripts', 'musicalmuse_styles' );
+add_action( 'wp_enqueue_scripts', 'musicalmuse_wp_enqueue_scripts' );
