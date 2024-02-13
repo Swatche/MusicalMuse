@@ -13,23 +13,28 @@
 			"palette": [
 				{
 					"slug": "base",
-					"color": "#1e1e1e",
+					"color": "#ffffff",
 					"name": "Base"
 				},
 				{
 					"slug": "contrast",
-					"color": "#f0f0f0",
+					"color": "#000000",
 					"name": "Contrast"
 				},
 				{
 					"slug": "primary",
-					"color": "#0073aa",
+					"color": "#c988d8",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#00a0d2",
+					"color": "#3a3a3a",
 					"name": "Secondary"
+				},
+				{
+					"slug": "Secondary Contrast",
+					"color": "#898989",
+					"name": "Secondary Contrast"
 				},
 				{
 					"slug": "transparent",
