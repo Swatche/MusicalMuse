@@ -30,3 +30,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+.is-style-fancy-paragraph{
+	/* color: blue; */
+}
+
+.is-style-heading-2{
+	letter-spacing: 1.5rem;
+}
