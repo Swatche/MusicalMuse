@@ -35,6 +35,12 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.is-style-fake-input{
+	border: 1px solid black;
+	border-radius: 2rem;
+	padding: 1.1rem;
+}
+
 .is-style-heading-2{
 	letter-spacing: 1.2rem;
 }
