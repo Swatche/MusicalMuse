@@ -178,14 +178,14 @@
 							"text": "var(--wp--preset--color--contrast)"
 						},
 						"typography": {
-							"textDecoration": "underline"
+							"textDecoration": "none"
 						},
 						":hover": {
 							"color": {
 								"text": "var(--wp--preset--color--contrast)"
 							},
 							"typography": {
-								"textDecoration": "none"
+								"textDecoration": "underline"
 							}
 						},
 						":focus": {
@@ -293,7 +293,7 @@
 				"shadow": "var(--wp--preset--shadow--natural)",
 				":hover": {
 					"border": {
-						"color": "var(--wp--preset--color--secondary)"
+						"color": "var(--wp--preset--color--base)"
 					}
 				}
 			},
