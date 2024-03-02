@@ -16,7 +16,7 @@ uploads
 upgrade
 
 # Wordpress plugin folders
-plugins
+plugins/wpforms-lite
 
 # SRC files/folders
 node_modules
