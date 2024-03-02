@@ -16,7 +16,7 @@ uploads
 upgrade
 
 # Wordpress plugin folders
-plugins/current-template-file
+plugins
 
 # SRC files/folders
 node_modules
