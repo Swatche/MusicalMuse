@@ -22,6 +22,12 @@ function musicalmuse_wp_enqueue_scripts() {
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
+	wp_enqueue_style(
+		'woocommerce',
+		get_template_directory_uri() . '/assets/css/woocommerce.css',
+		[],
+		wp_get_theme()->get( 'Version' )
+	);
 }
 add_action( 'wp_enqueue_scripts', 'musicalmuse_wp_enqueue_scripts' );
 
