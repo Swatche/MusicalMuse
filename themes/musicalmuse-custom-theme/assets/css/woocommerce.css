@@ -57,3 +57,21 @@ form.woocommerce-EditAccountForm.edit-account input{
 form.woocommerce-EditAccountForm.edit-account fieldset{
     border: 2px dashed #898989;
 }
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name{
+    color: white;
+}
+
+td.wc-block-cart-item__product div.wc-block-cart-item__quantity div.wc-block-components-quantity-selector{
+    border: 3px solid #898989;
+}
+
+div.wc-block-components-main {
+    background-color: #c988d8;
+    border-radius: 10px;
+    color: white;
+}
+
+div.wc-block-components-sidebar span.wp-block-woocommerce-cart-order-summary-heading-block.wc-block-cart__totals-title{
+    color: #c988d8;
+}
