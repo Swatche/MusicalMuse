@@ -36,4 +36,10 @@ header.woocommerce-Address-title.title a.edit{
     margin-top: 2rem;
 }
 
+form.woocommerce-EditAccountForm.edit-account label{
+    
+}
 
+form.woocommerce-EditAccountForm.edit-account input{
+    border: 2px solid #c988d8;
+}
