@@ -9,13 +9,14 @@
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul li{
     padding: 0;
-    margin: 5px 10px;
+    margin: 5px;
 }
 
 
