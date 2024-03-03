@@ -33,8 +33,17 @@
     text-decoration: none;
 }
 
+header.woocommerce-Address-title.title h3{
+    color: #ab50bf;
+    font-weight: bold;
+}
+
 header.woocommerce-Address-title.title a.edit{
     margin-top: 2rem;
+    background-color: #c988d8;
+    color: white;
+    padding: 0 0.5rem;
+    border-radius: 10px;
 }
 
 form.woocommerce-EditAccountForm.edit-account label{
