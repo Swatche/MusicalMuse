@@ -36,4 +36,7 @@ header.woocommerce-Address-title.title a.edit{
     margin-top: 2rem;
 }
 
-
+form.woocommerce-EditAccountForm.edit-account label{
+    color: #3a3a3a;
+    
+}
