@@ -37,9 +37,13 @@ header.woocommerce-Address-title.title a.edit{
 }
 
 form.woocommerce-EditAccountForm.edit-account label{
-    
+    color: #ab50bf;
 }
 
 form.woocommerce-EditAccountForm.edit-account input{
-    border: 2px solid #c988d8;
+    border: 2px solid #898989;
+}
+
+form.woocommerce-EditAccountForm.edit-account fieldset{
+    border: 2px dashed #898989;
 }
