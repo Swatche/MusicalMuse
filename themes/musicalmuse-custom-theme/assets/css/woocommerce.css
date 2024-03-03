@@ -20,6 +20,10 @@
     margin: 5px;
 }
 
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul li a{
+    color: #c988d8;
+}
+
 header.woocommerce-Address-title.title a.edit{
     margin-top: 2rem;
 }
