@@ -13,4 +13,9 @@
     align-items: center;
 }
 
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul li{
+    padding: 0;
+    margin: 5px 10px;
+}
+
 
