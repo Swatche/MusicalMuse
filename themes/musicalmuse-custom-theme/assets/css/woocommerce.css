@@ -1,0 +1,7 @@
+.logged-in.woocommerce-account .entry-content .woocommerce{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
