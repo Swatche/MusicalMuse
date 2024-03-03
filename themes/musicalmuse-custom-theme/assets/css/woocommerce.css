@@ -22,6 +22,7 @@
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul li a{
     color: #898989;
+    font-weight: bold;
 }
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul li a:hover{
