@@ -24,6 +24,14 @@
     color: #c988d8;
 }
 
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul li a:hover{
+    background-color: #c988d8;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 header.woocommerce-Address-title.title a.edit{
     margin-top: 2rem;
 }
