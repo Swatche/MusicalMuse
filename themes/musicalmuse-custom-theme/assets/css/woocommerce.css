@@ -1,6 +1,7 @@
 .logged-in.woocommerce-account .entry-content .woocommerce{
     display: flex;
     flex-direction: column;
+    max-width: 1024px;
 }
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation{
