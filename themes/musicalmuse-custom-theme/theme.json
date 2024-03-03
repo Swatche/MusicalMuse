@@ -206,7 +206,6 @@
 			"core/post-content": {
 				"spacing": {
 					"margin": {
-						"top": "var(--wp--preset--spacing--60)",
 						"bottom": "var(--wp--preset--spacing--60)"
 					}
 				}
