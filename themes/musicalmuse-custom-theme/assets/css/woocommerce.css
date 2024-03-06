@@ -1,3 +1,19 @@
+/* *banner */
+
+.wc-block-components-notice-banner.is-info{
+    background-color: white;
+    border: 2px solid #c988d8;
+    color: #898989;
+}
+
+.wc-block-components-notice-banner.is-error{
+    border: 2px solid red;
+    background-color: white;
+    color: rgb(152, 30, 30);
+}
+
+/* *my account nav */
+
 .logged-in.woocommerce-account .entry-content .woocommerce{
     display: flex;
     flex-direction: column;
@@ -6,6 +22,7 @@
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation{
     width: 100%;
+    margin-top: 2rem;
 }
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul{
@@ -33,6 +50,8 @@
     text-decoration: none;
 }
 
+/* *address pages */
+
 header.woocommerce-Address-title.title h3{
     color: #ab50bf;
     font-weight: bold;
@@ -58,6 +77,19 @@ form.woocommerce-EditAccountForm.edit-account fieldset{
     border: 2px dashed #898989;
 }
 
+/* *orders page */
+
+.woocommerce-page table.shop_table_responsive {
+    border: 3px solid #898989;
+    border-radius: 10px;
+}
+
+.woocommerce-page table.shop_table_responsive th{
+    border-bottom: 2px dashed #898989;
+}
+
+/* *cart page */
+
 table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name{
     color: white;
 }
@@ -67,9 +99,21 @@ td.wc-block-cart-item__product div.wc-block-cart-item__quantity div.wc-block-com
 }
 
 div.wc-block-components-main {
-    background-color: #c988d8;
+    background-color: #ab50bf;
+    /* border: 2px solid #ab50bf; */
     border-radius: 10px;
     color: white;
+    padding: 1rem;
+}
+
+div.wc-block-components-main td{
+    border-top: 1px solid red;
+}
+
+.wc-block-checkout__payment-method .wc-block-components-radio-control{
+    border: 2px dashed white;
+    background-color: white;
+    color: black;
 }
 
 div.wc-block-components-sidebar span.wp-block-woocommerce-cart-order-summary-heading-block.wc-block-cart__totals-title{
