@@ -17,6 +17,7 @@ upgrade
 
 # Wordpress plugin folders
 plugins/wpforms-lite
+plugins/block-visibility
 
 # SRC files/folders
 node_modules
