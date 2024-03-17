@@ -31,6 +31,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* page template spacing */
 :where(.wp-site-blocks) > * {
 	margin-block-start: 0;
 }
