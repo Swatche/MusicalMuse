@@ -58,7 +58,7 @@ function musicalmuse_register_post_type() {
         'capability_type'       => 'post',
         'capabilities'          => array(),
         'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail'),
-        'taxonomies'            => array(),
+        'taxonomies'            => array( 'category'),
         'has_archive'           => false,
         'rewrite'               => array( 'slug' => 'events' ),
         'query_var'             => true,
