@@ -57,7 +57,7 @@ function musicalmuse_register_post_type() {
         'menu_icon'             => 'dashicons-calendar-alt',
         'capability_type'       => 'post',
         'capabilities'          => array(),
-        'supports'              => array( 'title', 'editor' ),
+        'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail'),
         'taxonomies'            => array(),
         'has_archive'           => false,
         'rewrite'               => array( 'slug' => 'events' ),
