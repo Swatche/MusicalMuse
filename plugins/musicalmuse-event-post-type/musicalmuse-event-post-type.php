@@ -6,7 +6,6 @@
 function musicalmuse_register_post_type() {
 
     $labels = array(
-
         'name'                     => __( 'Events', 'musicalmuse' ),
         'singular_name'            => __( 'Event', 'musicalmuse' ),
         'add_new'                  => __( 'Add New', 'musicalmuse' ),
@@ -40,11 +39,9 @@ function musicalmuse_register_post_type() {
         'item_updated'             => __( 'Event updated.', 'musicalmuse' ),
         'item_link'                => __( 'Event Link', 'musicalmuse' ),
         'item_link_description'    => __( 'A link to an event.', 'musicalmuse' ),
-
     );
 
     $args = array(
-
         'labels'                => $labels,
         'description'           => __( 'organize and manage company events', 'musicalmuse' ),
         'public'                => false,
@@ -60,7 +57,7 @@ function musicalmuse_register_post_type() {
         'menu_icon'             => 'dashicons-calendar-alt',
         'capability_type'       => 'post',
         'capabilities'          => array(),
-        'supports'              => array( 'title', 'editor', 'revisions' ),
+        'supports'              => array( 'title', 'editor' ),
         'taxonomies'            => array(),
         'has_archive'           => false,
         'rewrite'               => array( 'slug' => 'events' ),
@@ -69,10 +66,7 @@ function musicalmuse_register_post_type() {
         'delete_with_user'      => false,
         'template'              => array(),
         'template_lock'         => false,
-
     );
-
     register_post_type( 'musicalmuse_event', $args );
-
 }
 add_action( 'init', 'musicalmuse_register_post_type' );
