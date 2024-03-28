@@ -65,6 +65,8 @@ header.woocommerce-Address-title.title a.edit{
     border-radius: 10px;
 }
 
+/* *edit account pages */
+
 form.woocommerce-EditAccountForm.edit-account label{
     color: #ab50bf;
 }
