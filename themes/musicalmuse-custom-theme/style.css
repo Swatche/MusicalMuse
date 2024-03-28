@@ -31,12 +31,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-/* page template spacing */
+/* *page template spacing */
 :where(.wp-site-blocks) > * {
 	margin-block-start: 0;
 }
 
-/* custom block styles */
+/* *custom block styles */
 .is-style-box-shadow{
 	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27); 
 	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27);
